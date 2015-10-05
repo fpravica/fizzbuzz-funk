@@ -1,7 +1,7 @@
 package com.prottone.fizzbuzz.funk;
 
 import com.prottone.fizzbuzz.Buzzer;
-import com.prottone.fizzbuzz.FizzBuzz;
+import com.prottone.fizzbuzz.Buzzers;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -26,10 +26,10 @@ public class FizzBuzzFunk {
 
 
     public static String fizz(int index) {
-        return FizzBuzz.FIZZ.execute(index);
+        return Buzzers.FIZZ.execute(index);
     }
 
     public static String buzz(int index) {
-        return FizzBuzz.BUZZ.execute(index);
+        return Buzzers.BUZZ.execute(index);
     }
 }

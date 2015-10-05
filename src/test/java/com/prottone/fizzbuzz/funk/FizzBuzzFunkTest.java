@@ -7,6 +7,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.IOException;
+import java.util.Iterator;
 import java.util.List;
 
 import static com.prottone.fizzbuzz.funk.FizzBuzzFunk.buzzWith;
@@ -67,5 +68,4 @@ public class FizzBuzzFunkTest {
         Assert.assertEquals("FizzBuzzWoof", results.get(104));
         Assert.assertEquals("FizzFoo", results.get(110));
     }
-
 }
